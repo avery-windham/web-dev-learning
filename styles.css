@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Lucida Console, Courier, monospace;; 
+}
+
+main{
+    padding: 20px 40px;
+}
+
+.main-header {
+    background-color: burlywood;
+    width: 100%;
+}
+
+h1.main-header {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+section.introduction {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+section.block-info {
+    margin: auto;
+}
+
+section.block-info h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    background-color: gray;
+    display: block
+}
+
+section.block-info table {
+    border: 2px solid darkgreen;
+}
+
+section.block-info thead {
+    background-color: silver;
+    color: maroon;
+    padding: 5px;
+}
+
+section.block-info td {
+    padding: 5px;
+}
